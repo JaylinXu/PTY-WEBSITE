@@ -1,0 +1,216 @@
+
+  
+ 
+header {
+	background-color: #ac9ff3;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+    font-family: "Monoton", cursive;
+    font-size: 48px;
+
+}
+
+.headline {
+    font-family: 'Monoton', cursive;
+    font-weight: regular;
+  }
+
+
+  .image-container {
+    position:absolute;
+    float: right; /* 图片向右浮动 */
+    margin-left: 0px; /* 设置右边距为 20px */
+  }
+  
+  .image-container img {
+    max-width: 100%; /* 将图片宽度设置为最大不超过容器宽度 */
+    height: auto; /* 自适应高度，保持比例不变 */
+    object-fit: cover; /* 使用 cover 属性调整图片填充方式 */
+    opacity: 0.7;
+  }
+  
+  
+  
+
+.logo img {
+	max-width: 20%;
+	height: auto;
+}
+
+.background-image img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+a:link,
+a:hover,
+a:visited,
+a:active {
+ color: rgb(171, 146, 221);
+ text-decoration: none;
+}
+body {
+ height: 100%;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+ background: #fff;
+}
+.card-holder {
+ position: fixed;
+ width: 0px;
+ overflow: visible;
+ top: 50%;
+ left: 0%;
+ transform: translate(-50%, -50%);
+
+ font-size: 0.2rem;
+}
+.card-wrapper {
+ display: block;
+ float: right;
+ clear: both;
+}
+.card {
+ position:relative;
+ left: 25px;
+ padding: 20px;
+ margin: 5px;
+ background: #fff;
+ transition: all 0.3s ease-in-out 0.1s;
+}
+
+.card:hover {
+ position: relative;
+ left: 100%;
+ margin-left: -5px;
+ transition: all 0.3s ease-in-out;
+}
+.card-content {
+ display: inline-block;
+ color: #fff;
+ font-family: 'Droid Sans', sans-serif;
+ font-size: 16px;
+ font-weight: bold;
+ white-space: nowrap;
+ left: 0%;
+}
+.bg-00 { background: #7c55bc; }
+.bg-01 { background: #bc5559; }
+.bg-02 { background:#5181c5;  }
+.bg-03 { background: #fec76d; }
+.bg-04 { background: #609295; }
+.bg-05 { background: #f58e6b; }
+.bg-06 { background: #6e6577; }
+
+
+/* Set background color and font styles for the entire page */
+body {
+    background-color: #cbc6f2;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-size 16px;
+  }
+  
+  /* Style the dance videos section */
+  .dance-videos {
+    margin: 50px auto;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .dance-videos h2 {
+    font-size: 48px;
+    margin-bottom: 50px;
+    color: #44175a;
+    text-shadow: 3px 3px 0px #aa84e4;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .dance-videos .video {
+    margin-bottom: 50px;
+  }
+  
+  .dance-videos .video iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border: 5px solid #B39DD4;
+  }
+  
+  .dance-videos .channel {
+    margin-top: 50px;
+  }
+  
+  .dance-videos .channel a {
+    display: inline-block;
+    padding: 10px;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #fff;
+    background-color: #6B238E;
+    text-decoration: none;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0px #B39DD4;
+    transition: all 0.3s ease;
+    display: flex; /* 将a元素设置为flex布局 */
+    justify-content: center; /* 在主轴上水平居中对齐 */
+    align-items:center; /* 在交叉轴上垂直居中对齐 */
+  }
+  
+  .dance-videos .channel a:hover {
+    background-color: #B39DD4;
+    box-shadow: 5px 5px 0px #6B238E;
+  }
+
+  .channel img {
+    max-width: 70px; /* 将图片的最大宽度设置为 100 像素 */
+    max-height: 70px; /* 将图片的最大高度设置为 100 像素 */
+    border-radius: 20px;
+  }
+  
+  
+
+  nav ul1 {
+    list-style: none;
+    margin: 100;
+    padding: 0;
+    height: 0.2cm;
+    display: flex;
+    justify-content: center;
+    background-color: #553B8B;
+}
+nav ul {
+    list-style: none;
+    margin: 100;
+    padding: 0;
+    height: 0.1cm;
+    display: flex;
+    justify-content: center;
+    background-color: #553B8B;
+}
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #F4F2F9;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #7A5DC7;
+}
+
+footer {
+    background-color: #ac9ff3;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+  }

@@ -1,0 +1,171 @@
+body {
+  background-color:  #cbc6f2;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+
+header {
+	background-color: #cbc6f2;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+    font-family: "Monoton", cursive;
+    font-size: 48px;
+    background-image: url('../images/p2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    position: relative;
+
+}
+header:before {
+  content: "PROFILE";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: inherit;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+header h1 {
+  margin-top: 100px;
+  text-align: center;
+  color: #fff;
+  font-size: 48px;
+  text-shadow: 4px 4px #000;
+}
+.headline {
+    font-family: 'Monoton', cursive;
+    font-weight: regular;
+  }
+
+
+  .image-container {
+    position:absolute;
+    float: right; /* 图片向右浮动 */
+    margin-left: 0px; /* 设置右边距为 20px */
+  }
+  
+  .image-container img {
+    max-width: 100%; /* 将图片宽度设置为最大不超过容器宽度 */
+    height: auto; /* 自适应高度，保持比例不变 */
+    object-fit: cover; /* 使用 cover 属性调整图片填充方式 */
+    opacity: 0.7;
+  }
+  
+  
+  
+
+h1 {
+  margin: 0;
+  font-family: 'Monoton', cursive;
+  font-size: 24px;
+  margin-top: 0px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+  color: #aca3ce;
+  text-shadow: 1px 1px #000, -1px 1px #000, 1px 0px #000, 1px 1px #000;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #000000;
+  text-align:justify;
+}
+
+p {
+  font-family: verdana;
+}
+
+a:link,
+a:hover,
+a:visited,
+a:active {
+ color: rgb(171, 146, 221);
+ text-decoration: none;
+}
+body {
+ height: 100%;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+ background: #fff;
+}
+.card-holder {
+ position: fixed;
+ width: 0px;
+ overflow: visible;
+ top: 50%;
+ left: 0%;
+ transform: translate(-50%, -50%);
+
+ font-size: 0.2rem;
+}
+.card-wrapper {
+ display: block;
+ float: right;
+ clear: both;
+}
+.card {
+ position:relative;
+ left: 25px;
+ padding: 20px;
+ margin: 5px;
+ background: #fff;
+ transition: all 0.3s ease-in-out 0.1s;
+}
+
+.card:hover {
+ position: relative;
+ left: 100%;
+ margin-left: -5px;
+ transition: all 0.3s ease-in-out;
+}
+.card-content {
+ display: inline-block;
+ color: #fff;
+ font-family: 'Droid Sans', sans-serif;
+ font-size: 16px;
+ font-weight: bold;
+ white-space: nowrap;
+ left: 0%;
+}
+.bg-00 { background: #7c55bc; }
+.bg-01 { background: #bc5559; }
+.bg-02 { background:#5181c5;  }
+.bg-03 { background: #fec76d; }
+.bg-04 { background: #609295; }
+.bg-05 { background: #f58e6b; }
+.bg-06 { background: #6e6577; }
+
+
+footer {
+  background-color:  #ac9ff3;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}

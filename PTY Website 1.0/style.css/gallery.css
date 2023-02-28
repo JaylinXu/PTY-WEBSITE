@@ -1,0 +1,115 @@
+body{
+    background-color: #cbc6f2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 20;
+    color: #ffffff;
+    text-shadow: 1px 1px  #ac9ff3, -2px 1px #000, 1px 0px #000, 1px 1px #000;
+  }
+  
+ 
+header {
+	background-color: #ac9ff3;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+    font-family: "Monoton", cursive;
+    font-size: 48px;
+
+}
+
+.headline {
+    font-family: 'Monoton', cursive;
+    font-weight: regular;
+  }
+
+
+  .image-container {
+    position:absolute;
+    float:none /* 图片向右浮动 */
+  }
+  
+  .image-container img {
+    max-width: auto; /* 将图片宽度设置为最大不超过容器宽度 */
+    height: auto; /* 自适应高度，保持比例不变 */
+    object-fit: cover; /* 使用 cover 属性调整图片填充方式 */
+    opacity: 0.7;
+  }
+  
+
+.logo img {
+	max-width: 20%;
+	height: auto;
+}
+
+.background-image img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+
+
+
+
+
+.gallery {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+.gallery-image {
+	width: 40%;
+	height: auto;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+	transition: transform 0.2s ease-in-out;
+    margin: 5px;
+}
+
+.gallery-image:hover {
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+/* 模态框 */
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 50px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+}
+
+.close {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	font-size: 40px;
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+}

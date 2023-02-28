@@ -1,0 +1,189 @@
+
+ 
+header {
+	background-color: #ac9ff3;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+    font-family: "Monoton", cursive;
+    font-size: 48px;
+
+}
+
+.headline {
+    font-family: 'Monoton', cursive;
+    font-weight: regular;
+  }
+
+
+  .image-container {
+    position:absolute;
+    float: right; /* 图片向右浮动 */
+    margin-left: 0px; /* 设置右边距为 20px */
+  }
+  
+  .image-container img {
+    max-width: 100%; /* 将图片宽度设置为最大不超过容器宽度 */
+    height: auto; /* 自适应高度，保持比例不变 */
+    object-fit: cover; /* 使用 cover 属性调整图片填充方式 */
+    opacity: 0.7;
+  }
+  
+  
+  
+
+.logo img {
+	max-width: 20%;
+	height: auto;
+}
+
+.background-image img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+body {
+    background-color: #eee;
+    font-family: Arial, sans-serif;
+  }
+  
+  .box1 {
+    background-color: #f5e7ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .box1 h1 {
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 80%;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #8b00ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .box2 {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+  }
+  
+  .box2 h2 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .comment {
+    background-color: #f5e7ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .comment strong {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .comment p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .comment button {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: #000000;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+  }
+
+  .comment2 {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: #ff0000;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+  }
+  
+  .comment .likes {
+    font-size: 6px;
+    margin-left: 10px;
+  }
+  
+  
+  
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .contact {
+    flex-basis: 60%;
+  }
+  
+  .social {
+    flex-basis: 40%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .social a {
+    margin-left: 20px;
+    font-size: 1.5rem;
+    color: #000;
+  }
+  
+  .social a:hover {
+    color: #c13584;
+  }
+  

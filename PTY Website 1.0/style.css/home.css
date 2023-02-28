@@ -1,0 +1,154 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #cbc6f2;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	padding: 20px;
+    font-family: "Monoton", cursive;
+    font-size: 72px;
+    position: relative;
+}
+
+.headline {
+    font-family: 'Monoton', cursive;
+    font-weight: regular;
+    position: absolute;
+  }
+
+
+
+  .image-container {
+    position:absolute;
+    float: right; /* 图片向右浮动 */
+    margin-left: 0px; /* 设置右边距为 20px */
+  }
+  
+  .image-container img {
+    max-width: 100%; /* 将图片宽度设置为最大不超过容器宽度 */
+    height: 100%; /* 自适应高度，保持比例不变 */
+    object-fit: cover; /* 使用 cover 属性调整图片填充方式 */
+    opacity: 0.7;
+    display: block;
+    margin: 0 auto;
+  }
+
+
+.logo img {
+	max-width: 20%;
+	height: auto;
+}
+
+.image-background {
+    background-image: url('../images/DNACOVER.JPG');
+    background-size: cover; /* 调整背景图片的大小以覆盖整个元素 */
+    background-position: center; /* 将背景图片居中 */
+    height: 200px; /* 设置元素的高度 */
+    max-height: 80%;
+  }
+  
+
+h1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-size: 3rem;
+	color: #fff;
+
+}
+
+p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-size: 0.2rem;
+	color: #fff;
+	max-width: 20%;
+}
+
+p {
+    font-family: verdana;
+  }
+  
+  a:link,
+  a:hover,
+  a:visited,
+  a:active {
+   color: rgb(171, 146, 221);
+   text-decoration: none;
+  }
+  body {
+   height: 100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   background: #fff;
+  }
+  .card-holder {
+   position: fixed;
+   width: 0px;
+   overflow: visible;
+  }
+  .card-wrapper {
+   display: block;
+   float: right;
+   clear: both;
+  }
+  .card {
+   position:relative;
+   left: 30px;
+   padding: 24px;
+   margin: 5px;
+   background: #fff;
+   transition: all 0.3s ease-in-out 0.1s;
+  }
+  
+  .card:hover {
+   position: relative;
+   left: 100%;
+   margin-left: -5px;
+   transition: all 0.3s ease-in-out;
+  }
+  .card-content {
+   display: inline-block;
+   color: #fff;
+   font-family: 'Droid Sans', sans-serif;
+   font-size: 16px;
+   font-weight: bold;
+   white-space: nowrap;
+  }
+  .bg-00 { background: #7c55bc; }
+  .bg-01 { background: #bc5559; }
+  .bg-02 { background:#5181c5;  }
+  .bg-03 { background: #fec76d; }
+  .bg-04 { background: #609295; }
+  .bg-05 { background: #f58e6b; }
+  .bg-06 { background: #6e6577; }
+
+  
+main {
+	display: flex;
+	flex-wrap: wrap;
+}
+footer {
+    background-color:  #cbc6f2;
+    padding: 2px;
+    text-align: center;
+    line-height: 0.5;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+  }
+ 
+ 

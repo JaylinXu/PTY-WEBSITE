@@ -1,0 +1,160 @@
+body {
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+header {
+background-color: #ac9ff3;
+color: #fff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+  font-family: "Monoton", cursive;
+  font-size: 48px;
+
+
+}
+
+
+.headline {
+  font-family: 'Monoton', cursive;
+  font-weight: regular;
+}
+
+
+
+
+.image-container {
+  position:absolute;
+  float: right; /* 图片向右浮动 */
+  margin-left: 0px; /* 设置右边距为 20px */
+}
+ .image-container img {
+  max-width: 100%; /* 将图片宽度设置为最大不超过容器宽度 */
+  height: auto; /* 自适应高度，保持比例不变 */
+  object-fit: cover; /* 使用 cover 属性调整图片填充方式 */
+  opacity: 0.7;
+}
+
+.logo img {
+max-width: 20%;
+height: auto;
+}
+
+
+.background-image img {
+max-width: 100%;
+height: auto;
+}
+
+
+a:link,
+a:hover,
+a:visited,
+a:active {
+ color: rgb(171, 146, 221);
+ text-decoration: none;
+}
+body {
+ height: 100%;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+ background: #fff;
+}
+.card-holder {
+ position: fixed;
+ width: 0px;
+ overflow: visible;
+ top: 50%;
+ left: 0%;
+ transform: translate(-50%, -50%);
+
+ font-size: 0.2rem;
+}
+.card-wrapper {
+ display: block;
+ float: right;
+ clear: both;
+}
+.card {
+ position:relative;
+ left: 25px;
+ padding: 20px;
+ margin: 5px;
+ background: #fff;
+ transition: all 0.3s ease-in-out 0.1s;
+}
+
+.card:hover {
+ position: relative;
+ left: 100%;
+ margin-left: -5px;
+ transition: all 0.3s ease-in-out;
+}
+.card-content {
+ display: inline-block;
+ color: #fff;
+ font-family: 'Droid Sans', sans-serif;
+ font-size: 16px;
+ font-weight: bold;
+ white-space: nowrap;
+ left: 0%;
+}
+.bg-00 { background: #7c55bc; }
+.bg-01 { background: #bc5559; }
+.bg-02 { background:#5181c5;  }
+.bg-03 { background: #fec76d; }
+.bg-04 { background: #609295; }
+.bg-05 { background: #f58e6b; }
+.bg-06 { background: #6e6577; }
+
+
+
+
+
+
+ main {
+  max-width: 1000px;
+  margin: 20px auto;
+}
+ .member {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #cbc6f2;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+ .member-info {
+  flex: 1;
+}
+ .member-info h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #4d004d;
+}
+ .member-info p {
+  margin: 0;
+  font-size: 15px;
+  text-align:justify;
+  color: rgb(46, 22, 96);
+}
+ .member-img {
+  flex: 1;
+  text-align: center;
+}
+
+.member-img img {
+  max-width: 60%;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+ footer {
+  background-color: #ac9ff3;
+  padding: 10px;
+
+ text-align: center;
+  color: #fff;
+}
